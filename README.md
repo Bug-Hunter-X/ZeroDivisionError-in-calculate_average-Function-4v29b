@@ -1,0 +1,4 @@
+# Python Code Error: ZeroDivisionError in calculate_average Function
+This repository demonstrates a common error in Python: the ZeroDivisionError that can occur when dividing by zero.  The `calculate_average` function is designed to compute the average of a list of numbers; however, it doesn't handle the case where an empty list is provided as input, leading to a division by zero.
+
+The `bug.py` file shows the erroneous code, and `bugSolution.py` provides a corrected version. The solution addresses this issue by explicitly checking for an empty list and returning 0 in such cases.  This prevents the program from crashing and produces a more robust function.
